@@ -1,0 +1,1 @@
+cd /vroom-frontend && npm run serve

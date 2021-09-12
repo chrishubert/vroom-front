@@ -1,9 +1,11 @@
 'use strict';
+const dotenv = require('dotenv');
+dotenv.config();
 
 module.exports = {
   tileLayer: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-  host: 'http://localhost',
-  port: '3000',
+  host: process.env.VROOM_PORT,
+  port: process.env.VROOM_HOST,
   maxTaskNumber: 100,
   overpassEndpoint: 'https://overpass-api.de/api/interpreter'
 };
