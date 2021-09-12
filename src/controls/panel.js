@@ -15,10 +15,12 @@ var panelControl = L.Control.extend({
     this._div = L.DomUtil.create('div', 'panel-control');
 
     // Header for panel control.
+    /*
     var headerDiv = document.createElement('div');
     headerDiv.setAttribute('class', 'panel-header');
     headerDiv.innerHTML = '<a href="http://vroom-project.org"><img src="../../images/vroom.svg" alt="Vroom" /></a>';
     this._div.appendChild(headerDiv);
+    */
 
     // Wait icon displayed while solving.
     this._waitDisplayDiv = document.createElement('div');

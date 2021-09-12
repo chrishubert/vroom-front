@@ -1,0 +1,11 @@
+version: '2.4'
+services:
+  vroom-front:
+    image: thetitoo/vroom-front
+    env_file:
+      - ./.env
+    ports:
+      - 9966:9966
+    environment:
+      VROOM_PORT: ${VROOM_PORT}
+      VROOM_HOST: ${VROOM_HOST}
