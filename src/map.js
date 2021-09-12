@@ -10,7 +10,7 @@ var address = require('./utils/address');
 var fileHandler = require('./utils/file_handler');
 var solutionHandler = require('./utils/solution_handler');
 
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 console.log(process.env.VROOM_HOST)
 
 panelControl.addTo(LSetup.map);
