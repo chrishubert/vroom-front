@@ -10,6 +10,6 @@ RUN npm install
 
 COPY ./docker-entrypoint.sh /docker-entrypoint.sh
 
-EXPOSE 80
+EXPOSE 9966
 ENTRYPOINT ["/bin/bash"]
 CMD ["/docker-entrypoint.sh"]

@@ -2,5 +2,6 @@ version: '2.4'
 services:
   vroom-front:
     image: thetitoo/vroom-front
+    container_name: vroom-front
     ports:
-      - 80:80
+      - 9966:9966
