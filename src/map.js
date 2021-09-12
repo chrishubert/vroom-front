@@ -10,10 +10,8 @@ var address = require('./utils/address');
 var fileHandler = require('./utils/file_handler');
 var solutionHandler = require('./utils/solution_handler');
 
-var dotenv = require('dotenv');
-dotenv.config();
-console.log('asdfasfds')
-console.log(process.env)
+require('dotenv').config();
+console.log(process.env.VROOM_HOST)
 
 panelControl.addTo(LSetup.map);
 collapseControl.addTo(LSetup.map);
