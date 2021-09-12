@@ -6,7 +6,7 @@ This repo contains the VROOM frontend demo hosted at
 Clone the repo and install dependencies using `npm`:
 
 ```bash
-git clone https://github.com/VROOM-Project/vroom-frontend.git
+git clone https://github.com/chrishubert/vroom-frontend.git
 cd vroom-frontend
 npm install
 ```

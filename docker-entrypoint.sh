@@ -1,1 +1,1 @@
-cd /vroom-frontend && npm run serve
+cd /vroom-front && npm run serve
