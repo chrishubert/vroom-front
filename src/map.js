@@ -10,8 +10,8 @@ var address = require('./utils/address');
 var fileHandler = require('./utils/file_handler');
 var solutionHandler = require('./utils/solution_handler');
 
-require('dotenv').config({ path: '../.env' });
-console.log(process.env.VROOM_HOST)
+require('dotenv').config({ path: '../.env' }); //TODO: Not working - investigate
+console.log(process.env.VROOM_HOST) //TODO: Not working - investigate
 
 panelControl.addTo(LSetup.map);
 collapseControl.addTo(LSetup.map);
